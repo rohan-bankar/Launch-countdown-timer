@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Red Hat Text';
+background-image: url(./images/bg-stars.svg);
+background-color: hsl(235, 16%, 14%);
+}
+
+.container{
+    margin: 140px 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socialPlatforms a{
+    margin-right: 30px;
+}
+
+.socialPlatforms{
+    position: relative;
+    top:270px;
+}
+
+.dayCount,
+.hoursCount,
+.minutesCount,
+.secondsCount{
+    font-size: 70px;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+    margin-top: 62px;
+}
+
+.name{
+    color: hsl(237, 18%, 59%);
+}
