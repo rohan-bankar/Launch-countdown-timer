@@ -9,8 +9,8 @@ background-image: url(./images/bg-stars.svg);
 background-color: hsl(235, 16%, 14%);
 }
 
-.container{
-    margin: 140px 300px;
+.inner-container{
+    margin: 140px 200px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -35,7 +35,6 @@ background-color: hsl(235, 16%, 14%);
     top:270px;
 }
 
-.dayCount,
 .hoursCount,
 .minutesCount,
 .secondsCount{
@@ -50,6 +49,60 @@ background-color: hsl(235, 16%, 14%);
     margin-top: 62px;
 }
 
+.dayCount{
+    font-size: 70px;
+    padding: 20px;
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+    margin-top: 62px;
+}
+
 .name{
     color: hsl(237, 18%, 59%);
+}
+
+.hills-img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .inner-container{
+        margin:  0 20px;
+    }
+
+    .socialPlatforms{
+        top: 50px;
+    }
+
+    .hoursCount,
+    .minutesCount,
+    .secondsCount{
+    font-size: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    }
+
+.dayCount{
+    font-size: 30px;
+    padding: 10px;
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    }
+
+.name{
+    font-size: 13px;
+}
 }

@@ -1,4 +1,4 @@
-const countDownDate = new Date("Feb 24, 2024 19:55:00").getTime();
+const countDownDate = new Date("Feb 29, 2026 00:00:00").getTime();
 
 const x = setInterval(()=>{
 
